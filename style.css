@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    padding: 12px;
+}
+h2{
+    color:blue;
+}
+.allineamento {
+    text-align: center;
+}
+#titolo{
+    border:solid 2px;
+}
