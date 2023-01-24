@@ -1,0 +1,37 @@
+.giallo {
+    color: yellow;
+}
+
+#principale {
+    color: green;
+}
+
+
+@media screen and (max-width:576px) {
+    .sfondo-arancio {
+        background-color: #e1bee7;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .sfondo-arancio {
+        background-color: #ba68c8;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .sfondo-arancio {
+        background-color: #9c27b0;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .sfondo-arancio {
+        background-color: #7b1fa2;
+    }
+}
+
+h2,
+h3 {
+    color: blue;
+}

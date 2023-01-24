@@ -1,0 +1,9 @@
+.par {
+    width: 600px;
+}
+
+.immagine {
+    max-width: 300px;
+    background-image: url(image.jpg);
+    background-attachment: fixed;
+}

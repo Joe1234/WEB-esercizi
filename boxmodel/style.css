@@ -1,0 +1,19 @@
+.sectionclass {
+    background-color: lightgreen;
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 90%;
+}
+
+@media screen and (min-width: 760px) {
+    .screen {
+        max-width: 80%;
+    }
+}
+
+p {
+    background-color: lightblue;
+    padding: 1em;
+    margin: 15px 10%;
+    border: dotted 3px black;
+}
