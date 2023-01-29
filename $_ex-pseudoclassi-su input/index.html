@@ -1,0 +1,58 @@
+<!-- creare un form con 
+    fieldset dati accesso
+    - input text name=codice - disabled
+    - input text name=nome
+    - input password name=password
+    fieldset interessi
+    - input checkbox name=cinema
+    - input checkbox name=teatro
+    - input checkbox name=sport
+
+    impostare sfondo grigio scuro ad input disabled
+    impostare font-size doppio alla label di un input checked 
+    e colore tomato
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Dati di Accesso</legend>
+        <form action="action.php">
+            <label for="codice">codice</label>
+            <input type="text" name="codice" disabled>
+            <label for="nome">nome</label>
+            <input type="text" name="nome">
+            <label for="nome">password</label>
+            <input type="password" name="password">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Interessi</legend>
+        <form action="action.php">
+            <div>
+                <input type="checkbox" name="cinema">
+                <label for="cinema">cinema</label>
+            </div>
+            <div>
+                <input type="checkbox" name="teatro">
+                <label for="teatro">teatro</label>
+            </div>
+            <div>
+                <input type="checkbox" name="sport">
+                <label for="sport">sport</label>
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>

@@ -1,4 +1,33 @@
-.overflow {
-    max-width: 500px;
-    max-height: 150px;
+section {
+    width: 500px;
+    height: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.overflow1 {
+    border: solid 1px red;
+    background-color: greenyellow;
+    overflow: auto;
+}
+.overflow2 {
+    border: solid 1px blue;
+    background-color: pink;
+    overflow: hidden;
+}
+.overflow3 {
+    border: solid 1px fuchsia;
+    background-color: greenyellow;
+    overflow: scroll;
+}
+.overflow4 {
+    border: solid 1px blueviolet;
+    background-color: salmon;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.overflow5 {
+    border: solid 1px cadetblue;
+    background-color: violet;
+    overflow: visible;
 }

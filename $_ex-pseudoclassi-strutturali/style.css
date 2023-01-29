@@ -1,0 +1,29 @@
+nav ul li {
+    display: inline;
+    padding: 0.5em;
+}
+
+/* esercizio 1 */
+/* li:first-child a:link {
+    background-color: pink;
+    color: white;
+}
+
+li:last-child a:link {
+    background-color: pink;
+    color: white;
+} */
+
+/* esercizio 2 */
+li:nth-child(odd) a {
+    background-color: green;
+    color: white;
+}
+li:nth-child(even) a {
+    background-color: black;
+    color: white;
+}
+/* esercizio 3 */
+li:not(.piccoli) {
+    font-size: 1.5em;
+}
