@@ -1,0 +1,6 @@
+.overflow {
+    background-color: lightgray;
+    width: 25%;
+    overflow: auto;
+    height: 150px;
+}
