@@ -43,17 +43,22 @@ table {
 	border-spacing: 0;
 }
 
-/* inizio il mio css */
-
+/* inizio il mio css mobile first*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
 header {
     width: 100%;
     background-color: green;
     color: white;
-    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
 
 nav {
     list-style: none;
     display: inline;
+}
+
+div {
+	width:  100%;
 }
