@@ -1,0 +1,33 @@
+body {
+    margin: 10% 10%;
+}
+
+p {
+    color: #2094b8
+}
+
+#mioid {
+    color: #4bb820
+}
+
+.miaclasse {
+    color: #d32828
+}
+
+div.miaclasse p {
+    color: #f33e07
+}
+
+/*discendenti*/
+div.miaclasse>p {
+    color: #4ff027
+}
+
+/*figli*/
+h2~h3 {
+    color: #4ff027;
+}
+
+h2+h3 {
+    color: #2094b8 !important;
+}
