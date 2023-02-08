@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+#menu ul {
+    list-style-type: none;
+
+}
+
+#menu {
+    text-align: center;
+    background-color: purple;
+    padding: 0.5em;
+
+}
+
+#menu a {
+    text-decoration: none;
+
+}
+
+#menu a:link {
+    color: white;
+
+}
+
+#servizi {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#servizi .servizio {
+    text-align: center;
+    padding: 1em;
+}
+
+#banner {
+    background-image: url(./sfondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 200px;
+}
+
+#banner .pellicola {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+#banner h2 {
+    color: white;
+}
+
+#blog {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#blog h2 {
+padding: 0.5em;
+}
+
+#gallery {
+    width: 90%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.5em  ;
+    margin: 10px auto;
+}
+
+#gallery .immagine {
+    background-image: url(./sfondo.jpg);
+    background-size: cover;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
